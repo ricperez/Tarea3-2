@@ -9,6 +9,23 @@ namespace Tarea_3_2
     class Program
     {
         static int opcion = 0;
+        static int n = 0;
+        static int[] binario = new int[6];
+
+        static void octalABinario() {
+            Console.Clear();
+            Console.WriteLine("Ingrese un numero en base octal para convertirlo a binario");
+            n = int.Parse(Console.ReadLine());
+            
+            for (int x = 6; n < 0;x--)
+            {
+                int residuo = n % 2;
+                binario[x] = residuo;
+                Console.Write(binario[x]);
+                n = n - 2 - residuo;
+            }
+            Console.ReadKey();
+        }
 
         static void Main(string[] args)
         {
@@ -52,11 +69,7 @@ namespace Tarea_3_2
             preguntas2[13] = "Pase de binario a hexadecimal el numero 100000 "; //20
             preguntas2[14] = "Pase de binario a hexadecimal el numero 10100 "; //14
 
-            for (int x = 0; x < 10;x++ )
-            {
-                
-
-            }
+            
 
             do{
                 Console.Clear();
@@ -71,15 +84,25 @@ namespace Tarea_3_2
                 switch (opcion)
                 {
                     case 1:
+                        for (int x = 0; x < 10; x++)
+                        {
+                            Console.WriteLine(preguntas1[(newRandom.Next(0, preguntas1.Length))]);
 
+                        }
+                        Console.ReadKey();
                         break;
 
                     case 2:
+                        for (int x = 0; x < 10; x++)
+                        {
+                            Console.WriteLine(preguntas2[(newRandom.Next(0, preguntas2.Length))]);
 
+                        }
+                        Console.ReadKey();
                         break;
 
                     case 3:
-
+                        octalABinario();
                         break;
 
                     case 4:
