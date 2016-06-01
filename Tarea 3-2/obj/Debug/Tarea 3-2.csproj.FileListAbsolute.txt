@@ -1,0 +1,6 @@
+c:\users\ibm_admin\documents\visual studio 2013\Projects\Tarea 3-2\Tarea 3-2\bin\Debug\Tarea 3-2.exe.config
+C:\Users\IBM_ADMIN\Documents\Visual Studio 2013\Projects\Tarea 3-2\Tarea 3-2\bin\Debug\Tarea 3-2.exe
+C:\Users\IBM_ADMIN\Documents\Visual Studio 2013\Projects\Tarea 3-2\Tarea 3-2\bin\Debug\Tarea 3-2.pdb
+C:\Users\IBM_ADMIN\Documents\Visual Studio 2013\Projects\Tarea 3-2\Tarea 3-2\obj\Debug\Tarea 3-2.csprojResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\Documents\Visual Studio 2013\Projects\Tarea 3-2\Tarea 3-2\obj\Debug\Tarea 3-2.exe
+C:\Users\IBM_ADMIN\Documents\Visual Studio 2013\Projects\Tarea 3-2\Tarea 3-2\obj\Debug\Tarea 3-2.pdb
